@@ -7,7 +7,7 @@ class Cetrion(Base):
 		 index=4,
 		 name="Cetrion",
 		 type1=Typing.mamão,
-     type2=Typing.Null,
+         type2=Typing.Null,
 		 health=125,
 		 speed=30,
 		 attack=40,
