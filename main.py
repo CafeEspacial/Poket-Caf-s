@@ -18,7 +18,7 @@ def tackle (a, b):
 
 Robsu = wilson.creatures[0]
 Josefu = wilson.creatures[1]
-Robsu.move(Josefu, tackle)
+Robsu.do_move(Josefu, tackle)
 
 Robsu.status()
 Josefu.status()

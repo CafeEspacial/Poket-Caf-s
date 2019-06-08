@@ -46,15 +46,15 @@ DEF: {}
 SP_ATK: {}
 SP_DEF: {}
 SPD: {}""".format(
-  self.name,
-  self.curr_health,
-  self.health,
-  self.attack,
-  self.defense,
-  self.sp_attack,
-  self.sp_defense,
-  self.speed
-))
+    self.name,
+    self.curr_health,
+    self.health,
+    self.attack,
+    self.defense,
+    self.sp_attack,
+    self.sp_defense,
+    self.speed
+  ))
 
-  def move(self, other, move):
+  def do_move(self, other, move):
     move(self, other)
