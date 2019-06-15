@@ -6,12 +6,20 @@ wilson = Trainer(
 	4,
 	[
 		creatures.Robsu(),
-		creatures.Josefu(),
+		creatures.Josefu()
+	]
+)
+wilson.list_creatures()
+
+Goku = Trainer(
+	"Goku",
+	4,
+	[
 		creatures.Sonic(),
 		creatures.Cetrion()
 	]
 )
-wilson.list_creatures()
+Goku.list_creatures()
 
 def tackle (a, b):
 	b.curr_health -= round(40 * (a.attack / 255))
